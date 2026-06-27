@@ -1,1 +1,22 @@
-
+{
+  "name": "rare-roots-design-app",
+  "version": "1.0.0",
+  "main": "App.js",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "build:apk": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "latest",
+    "expo": "latest",
+    "expo-status-bar": "latest",
+    "react": "latest",
+    "react-native": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "eas-cli": "latest"
+  }
+}
